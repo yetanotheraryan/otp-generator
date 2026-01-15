@@ -1,0 +1,15 @@
+{
+  "name": "otp-generator-for-noobs",
+  "version": "1.0.0",
+  "description": "one time password generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "otp",
+    "one time password"
+  ],
+  "author": "Aryan Tiwari",
+  "license": "ISC"
+}
