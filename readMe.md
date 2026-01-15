@@ -10,3 +10,6 @@ const getOTP = require('otp-generator');
 
 console.log(getOTP(6)); //returns a 6 digit random number
 ```
+
+
+This is the source repository for npm package - otp-generator-for-noobs
