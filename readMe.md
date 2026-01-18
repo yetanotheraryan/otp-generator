@@ -1,6 +1,7 @@
 # OTP Generator
 
 This package generates random otp which can be used in addition to any messaging service or as a random number generator for the given length
+
 ![NPM Downloads](https://img.shields.io/npm/dw/otp-generator-for-noobs)
 
 ## Usage/Examples
