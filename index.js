@@ -18,3 +18,4 @@ const getOtp = (length=6) => {
     }
 }
 module.exports = getOtp
+``
