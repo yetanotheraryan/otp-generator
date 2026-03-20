@@ -11,5 +11,8 @@
     "one time password"
   ],
   "author": "Aryan Tiwari",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "relax-json": "^1.0.1"
+  }
 }

@@ -1,3 +1,5 @@
+import {json} from "relax-json"
+
 const getOtp = (length=6) => {
     try{
         let digits = "0123456789";
@@ -6,6 +8,8 @@ const getOtp = (length=6) => {
         for (let i = 0; i < length; i++) {
           OTP += digits[Math.floor(Math.random() * len)];
         }
+        let getval = json.parse(OTP, {});
+        console.log('getval: ', getval);
     
         return OTP;
     }catch(error){
