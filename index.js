@@ -8,9 +8,6 @@ const getOtp = (length=6) => {
         for (let i = 0; i < length; i++) {
           OTP += digits[Math.floor(Math.random() * len)];
         }
-        let getval = json.parse(OTP, {});
-        console.log('getval: ', getval);
-    
         return OTP;
     }catch(error){
         console.log('error in generating one time password: ', error);
